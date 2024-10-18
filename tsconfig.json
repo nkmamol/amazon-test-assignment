@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "module":"Node16",
+    "moduleResolution": "Node16",  // <-- Updated moduleResolution
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "skipLibCheck": true,
+    "types": ["cypress", "@badeball/cypress-cucumber-preprocessor"]
+  },
+  "include": ["**/*.ts"]
+}
+
