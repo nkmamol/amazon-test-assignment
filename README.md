@@ -41,21 +41,21 @@ Apply coding standards, error handlings, assertions, page files, setup, teardown
 1. **Successfully search for a product and apply brand filter**
    - **Feature:** Amazon product search and filter
    - **Purpose:** we are testing search product with brand name and verifying the price range withing selected range
-   - **Steps:**
-			Given I open Amazon's homepage	
-            When I search for a product
-            And I apply a brand filter
-            And I apply a max price range filter
-            Then I should see the correct search results for the product and brand
-            And I should see the correct search results for the product within price range
+   - **Steps:**<br />
+	    Given I open Amazon's homepage <br />
+            When I search for a product <br />
+            And I apply a brand filter <br />
+            And I apply a max price range filter <br />
+            Then I should see the correct search results for the product and brand <br />
+            And I should see the correct search results for the product within price range <br />
 
 2. **Search for an invalid productt**
    - **Feature:** Amazon product search and filter
    - **Purpose:** We are testing this scenario to ensure if user search with invalid product should not show search result.
-   - **Steps:**
-			Given I open Amazon's homepage
-            When I search for an invalid product
-            Then I should see no search results
+   - **Steps:** <br />
+	    Given I open Amazon's homepage <br />
+            When I search for an invalid product <br />
+            Then I should see no search results <br />
 
 ## Technology Stack
 
